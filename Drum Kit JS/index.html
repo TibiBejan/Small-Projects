@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Drum Kit JS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="keys">
+            <div data-key="q" class="key">
+                <kbd>Q</kbd>
+                <span class="sound">Clap</span>
+            </div>
+            <div data-key="w" class="key">
+                <kbd>W</kbd>
+                <span class="sound">Hihat</span>
+            </div>
+            <div data-key="e"class="key">
+                <kbd>E</kbd>
+                <span class="sound">Kick</span>              
+            </div>
+            <div data-key="r"class="key">
+                <kbd>R</kbd>
+                <span class="sound">Openhat</span>
+            </div>
+            <div data-key="t"class="key">
+                <kbd>T</kbd>
+                <span class="sound">Boom</span>
+            </div>
+            <div data-key="y"class="key">
+                <kbd>Y</kbd>
+                <span class="sound">Ride</span>
+            </div>
+            <div data-key="u"class="key">
+                <kbd>U</kbd>
+                <span class="sound">Smare</span>
+            </div>
+            <div data-key="i" class="key">
+                <kbd>I</kbd>
+                <span class="sound">Tom</span>
+            </div>
+            <div data-key="o"class="key">
+                <kbd>O</kbd>
+                <span class="sound">Tnk</span>
+            </div>
+        </div>
+        
+        <audio src="audio/01clap.wav" data-key="q"></audio>
+        <audio src="audio/02hihat.wav" data-key="w"></audio>
+        <audio src="audio/03kick.wav" data-key="e"></audio>
+        <audio src="audio/04openhh.wav" data-key="r"></audio>
+        <audio src="audio/05snare.wav" data-key="t"></audio>
+        <audio src="audio/06crash.wav" data-key="y"></audio>
+        <audio src="audio/07ride.wav" data-key="u"></audio>
+        <audio src="audio/08tom1.wav" data-key="i"></audio>
+        <audio src="audio/09tom2.wav" data-key="o"></audio>
+
+        <script src="script.js"></script>
+    </body>
+</html>
